@@ -1,3 +1,18 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="ui container">
+<div class="ui secondary green pointing menu">
+    {{#link-to "index" class="item"}}CryptoCache{{/link-to}}
 
+  <a class="item">
+    
+  </a>
+    {{#link-to "log-cache" class="item"}}LogCache{{/link-to}}
+    {{#link-to "generate-cache" class="item"}}CreateCache{{/link-to}}
+  <div class="right menu">
+    <a class="ui item">
+      Login
+    </a>
+  </div>
+</div>
+<br>
 {{outlet}}
+</div>

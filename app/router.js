@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('scientists');
+  this.route('log-cache');
+  this.route('generate-cache');
 });
 
 export default Router;
