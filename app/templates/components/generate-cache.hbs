@@ -1,0 +1,14 @@
+<form class="form-horizontal" {{action "login" on="submit"}}>
+<div class="ui center aligned container">
+		<div class="ui labeled input">
+			<div class="ui label">
+			Enter GeoCache ID:
+			</div>
+			{{input placeholder="GC6AX94" value=geocache}}
+			</div>
+			<div class="ui hidden divider"> </div>
+			<div class="ui green button" {{action "toggleBody"}}> Find CryptoCache</div>
+</div>
+</form>
+{{geocache}}
+{{yield}}
